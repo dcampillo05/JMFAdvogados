@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+section.header{
+    margin-top: -40px;
+    background-image: url(https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.overlay-background{
+    height: 700px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #2C364BD1 0%, #00000094 100%);
+}
+
+section.header-menu{
+    z-index: 99;
+}
