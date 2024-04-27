@@ -4,13 +4,20 @@
     font-family: "Montserrat", sans-serif;
 }
 
+a{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER INIT */
+
 section.header{
-    margin-top: -40px;
+    margin-top: -95px;
     background-image: url(https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 700px;
+    
 }
 
 .overlay-background{
@@ -19,6 +26,119 @@ section.header{
     background-image: linear-gradient(180deg, #2C364BD1 0%, #00000094 100%);
 }
 
-section.header-menu{
+header.header-menu{
     z-index: 99;
+    padding: 10px 0px;
+    background-color: transparent;
+    position: relative;
+}
+
+nav.nav-items a{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+    padding: 12px 0;
+}
+
+.info-header-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex   ;
+    z-index: 98;
+    top: 250px;
+    left: 75px;
+}
+
+.info-header-container .info-header{
+    padding: 10px;
+}
+
+.info-header h1{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.4em;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.info-header h2{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.4em;
+    font-size: 31px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Button-Header{
+    position: relative;
+    top: -300px;
+    left: 75px;
+    z-index: 99;
+}
+
+.Button-Header button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    color: #000;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #cec6c6 0%, #fff 100%);
+    border-style: none;
+    border-radius: 7px 7px 7px 7px;
+    padding: 12px 20px 12px 20px;
+}
+
+/* Header finish */
+
+/* Sobre init */
+
+section.sobre{
+    background-image: url("/bg-jmf.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sobre .overlay-background-sobre{
+    background-color: #ffffff;
+    opacity: 0.74;
+    height: 470px;
+}
+
+.sobre-txt{
+    position: relative;
+    z-index: 99;
+    top: -370px;
+    left: 77px;
+}
+
+.sobre-txt span{
+    color: #7a777a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.sobre h2{
+    color: #2C364B;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+
+.sobre h3{
+    color: #2C364B;
+    font-size: 19px;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+.sobre-img{
+    position: relative;
+    z-index: 100;
+    top: -370px;
+    /* left: 180px; */
 }
