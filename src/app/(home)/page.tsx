@@ -16,7 +16,7 @@ export default function Home() {
         <div className="overlay-background">
           <div className="info-header-container">
             <div className="info-header">
-              {/* TODO: criar efeito de entrada com frame-motion */}
+
               <h2>Escritório especializada em</h2>
               <h1>Áreas diversas</h1>
             </div>
@@ -30,27 +30,26 @@ export default function Home() {
       </section>
 
       <section className="sobre">
-        <div className="overlay-background-sobre"></div>
-        <div className="container-sobre flex justify-between">
-          <div className="sobre-txt">
-            <span>Quem somos?</span>
-            <h2>JMF </h2>
-            <h3>SOCIEDADE DE ADVOGADOS</h3>
-            <p>Fundada em junho de 2010, a JMF Sociedade de Advogados é uma referência consolidada no mercado jurídico, sendo reconhecida por sua sólida trajetória, credibilidade inabalável e excelência na prestação de serviços advocatícios.
+        <div className="interface">
+          <div className="container">
+            <div className="flex">
+              <div className="txt-sobre w-15">
+                <div className="logo-sobre">
+                  <Image src={"/logo.webp"} alt="Logo JMF" width={160} height={80} />
+                </div>
+                <p>A JMF Sociedade de Advogados foi fundada em junho de 2010 com a missão de fornecer soluções jurídicas de qualidade para uma variedade de clientes. Ao longo dos anos, a firma construiu uma reputação sólida baseada em sua credibilidade, excelência e compromisso em encontrar as melhores soluções para os desafios enfrentados pelos clientes. Com uma equipe altamente especializada, a firma atua tanto preventivamente quanto de forma contenciosa, especialmente no complexo cenário tributário brasileiro, onde se dedica a reduzir os custos de conformidade e a defender contra cobranças abusivas. Desde sua fundação, a JMF Sociedade de Advogados tem sido um ponto de referência no mercado jurídico, oferecendo serviços de qualidade e proteção jurídica para seus clientes.</p>
+              </div>
 
-              Nossa equipe é formada por profissionais altamente qualificados e especializados em diversas áreas do Direito, o que nos permite oferecer soluções jurídicas completas e eficazes para nossos clientes.
-
-              Atuamos de maneira proativa e reativa, tanto na prevenção de litígios quanto na resolução de disputas, representando tanto pessoas físicas quanto jurídicas. Nosso compromisso é fornecer uma abordagem holística e resultados que superem as expectativas, mantendo sempre o mais alto padrão de qualidade em todos os nossos serviços.
-            </p>
-          </div>
-          <div className="sobre-img">
-            <Image src={"/img01.jpg"} alt="" height={410} width={470} />
+              <div className="img-sobre">
+                <img className="" src="/img01.jpg" alt="Imagem" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
 
 
-    </div>
+    </div >
   );
 }

@@ -2,10 +2,26 @@
 
 *{
     font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a{
     font-family: "Montserrat", sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.interface{
+    /* max-width: 1280px; */
+    margin: 0 auto;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 /* HEADER INIT */
@@ -95,50 +111,34 @@ nav.nav-items a{
 /* Sobre init */
 
 section.sobre{
-    background-image: url("/bg-jmf.jpg");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: contain;
+    padding: 80px 4%;
+    left: 400px;
 }
 
-.sobre .overlay-background-sobre{
-    background-color: #ffffff;
-    opacity: 0.74;
-    height: 470px;
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
 }
 
-.sobre-txt{
+section.sobre .container{
+    left: 1px;
+}
+
+.txt-sobre p{
+    text-align: justify;
     position: relative;
-    z-index: 99;
-    top: -370px;
-    left: 77px;
+    width: 600px;
 }
 
-.sobre-txt span{
-    color: #7a777a;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.4em;
+.logo-sobre{
+    position: absolute;
+    top: 715px;
+    left: 23%;
+    transform: translateX(-50%);
 }
 
-.sobre h2{
-    color: #2C364B;
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.4em;
-}
-
-.sobre h3{
-    color: #2C364B;
-    font-size: 19px;
-    line-height: 1.4em;
-    font-weight: 400;
-}
-
-.sobre-img{
-    position: relative;
-    z-index: 100;
-    top: -370px;
-    /* left: 180px; */
+.img-sobre img{
+    height: 300px;
+    width: 500px ;
+    border-radius: 20px;
 }
